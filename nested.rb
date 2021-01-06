@@ -86,10 +86,17 @@ def adding_matz
         :languages => ["C"]
       }
     }
+<<<<<<< HEAD
     
   programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP", "C"]}
   
   return programmer_hash
+=======
+  programmer_hash[:yukihiro_matsumoto] = {}
+  programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby"
+  programmer_hash[:yukihiro_matsumoto][:languages] = ["LISP","C"]
+  
+>>>>>>> 95a80f06e801b61ed9efb545e9037e501cc5f24e
 end
 
 def changing_alan
@@ -113,8 +120,11 @@ def changing_alan
     }
 
   programmer_hash[:alan_kay][:known_for] = "GUI"
+<<<<<<< HEAD
   
   return programmer_hash
+=======
+>>>>>>> 95a80f06e801b61ed9efb545e9037e501cc5f24e
 
 end
 
@@ -139,7 +149,10 @@ def adding_to_dennis
     }
   
   programmer_hash[:dennis_ritchie][:languages].push("Assembly")
+<<<<<<< HEAD
   
   return programmer_hash
+=======
+>>>>>>> 95a80f06e801b61ed9efb545e9037e501cc5f24e
 
 end
